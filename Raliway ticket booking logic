@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    int seats;
+    printf("Enter available seats: ");
+    scanf("%d", &seats);
+
+    if (seats > 0)
+        printf("Ticket Booked");
+    else
+        printf("Waiting List");
+    return 0;
+}
